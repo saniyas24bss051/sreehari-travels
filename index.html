@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sreehari Travels Ooty — Premier private chauffeur and cab services across Ooty and the Nilgiris. Executive Ertiga and Etios fleet for mountain sightseeing, airport transit, and outstation journeys.">
+    <meta name="keywords" content="Sreehari Travels Ooty, Ooty cab service, private chauffeur Ooty, luxury taxi Ooty, Coimbatore airport to Ooty cab, Ertiga cab Ooty, Etios cab Ooty">
+    <meta name="author" content="Sreehari Travels Ooty">
+    <title>Sreehari Travels Ooty | Private Chauffeur & Travel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;1,6..96,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================================
+         NAVIGATION BAR - SINGLE SLEEK LINE
+    ========================================= -->
+    <header class="navbar">
+        <a href="#home" class="logo">
+            <span class="logo-title">SREEHARI TRAVELS</span>
+            <span class="logo-badge">OOTY</span>
+        </a>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation" type="button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#vehicles">Fleet</a>
+            <a href="#services">Services</a>
+            <a href="#packages">Packages</a>
+            <a href="#about">Heritage</a>
+            <a href="#contact">Contact</a>
+            <div class="nav-right">
+                <a href="tel:+919585990734" class="nav-phone">+91 9585990734</a>
+                <a href="booking.html" class="nav-book">Reserve</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- =========================================
+         HERO SECTION - CINEMATIC MINIMALIST LUXURY
+    ========================================= -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-eyebrow">CHAUFFEUR SERVICE • THE NILGIRIS</div>
+            <h1 class="hero-headline">
+                Private Travel Across Ooty & The Nilgiris
+            </h1>
+            <p class="hero-subtext">
+                An immaculate fleet of chauffeur-driven Ertiga and Etios vehicles tailored for curated mountain sightseeing, airport transit, and bespoke outstation journeys.
+            </p>
+
+            <div class="hero-actions">
+                <a href="booking.html" class="btn-primary">Reserve a Vehicle</a>
+                <a href="#vehicles" class="btn-secondary">Explore Fleet</a>
+                <a href="https://wa.me/919585990734?text=Hello%20Sreehari%20Travels%20Ooty,%20I%20would%20like%20to%20enquire%20about%20a%20cab%20booking." target="_blank" class="btn-ghost">
+                    WhatsApp Concierge
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================================
+         PILLARS OF SERVICE
+    ========================================= -->
+    <section class="pillars-section">
+        <div class="pillars-grid">
+            <div class="pillar-card">
+                <span class="pillar-num">01</span>
+                <h3>Mountain Chauffeurs</h3>
+                <p>Seasoned Nilgiris hill drivers skilled in navigating ghat routes, 36 hairpin bends, and changing weather with absolute safety.</p>
+            </div>
+            <div class="pillar-card">
+                <span class="pillar-num">02</span>
+                <h3>Private Fleet</h3>
+                <p>Spotless Maruti Ertiga 7-seaters and Toyota Etios sedans maintained to immaculate standards with climate control and ample boot space.</p>
+            </div>
+            <div class="pillar-card">
+                <span class="pillar-num">03</span>
+                <h3>Airport & Transit</h3>
+                <p>Precision 24/7 transfers connecting Coimbatore (CJB), Bangalore (BLR), and Mysore with guaranteed on-time flight pickups.</p>
+            </div>
+            <div class="pillar-card">
+                <span class="pillar-num">04</span>
+                <h3>Transparent Tariff</h3>
+                <p>Fixed, upfront pricing with zero hidden surcharges, inclusive of driver bata, mountain tolls, and parking assistance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================================
+         THE FLEET - LUXURY PRESENTATION
+    ========================================= -->
+    <section id="vehicles" class="section fleet-section">
+        <div class="section-header">
+            <span class="section-tag">THE FLEET</span>
+            <h2>Curated For Mountain Comfort</h2>
+            <p>Every vehicle in our fleet is owned, maintained, and operated directly by Sreehari Travels Ooty.</p>
+        </div>
+
+        <div class="fleet-grid">
+
+            <!-- 1. MARUTI SUZUKI ERTIGA (7 SEATER) -->
+            <div class="fleet-card">
+                <div class="vehicle-slider">
+                    <img src="images/ertiga3.jpeg" class="ertiga-slide active" alt="Maruti Suzuki Ertiga - Nilgiris Tea Estate">
+                    <img src="images/ertiga4.jpeg" class="ertiga-slide" alt="Maruti Suzuki Ertiga - Front Cabin">
+                    <img src="images/ertiga5.jpeg" class="ertiga-slide" alt="Maruti Suzuki Ertiga - Rear Seating">
+                    <img src="images/ertiga6.jpeg" class="ertiga-slide" alt="Maruti Suzuki Ertiga - Scenic Ooty">
+
+                    <button class="slider-arrow prev" type="button" onclick="changeErtigaSlide(-1)" aria-label="Previous">‹</button>
+                    <button class="slider-arrow next" type="button" onclick="changeErtigaSlide(1)" aria-label="Next">›</button>
+
+                    <div class="slider-dots">
+                        <span class="ertiga-dot active-dot" onclick="showErtigaSlide(0)"></span>
+                        <span class="ertiga-dot" onclick="showErtigaSlide(1)"></span>
+                        <span class="ertiga-dot" onclick="showErtigaSlide(2)"></span>
+                        <span class="ertiga-dot" onclick="showErtigaSlide(3)"></span>
+                    </div>
+                </div>
+
+                <div class="fleet-info">
+                    <div class="fleet-meta">
+                        <span class="fleet-category">MPV • 6+1 SEATER</span>
+                    </div>
+                    <h3>Maruti Suzuki Ertiga</h3>
+                    <p class="fleet-desc">
+                        Generous space and high ground clearance tailored for family vacations, mountain sightseeing, and airport transfers across the Nilgiris.
+                    </p>
+                    <div class="fleet-specs">
+                        <span>Up to 7 Passengers</span>
+                        <span>Dual Climate AC</span>
+                        <span>Luggage Carrier</span>
+                        <span>Hill-Climb Ready</span>
+                    </div>
+                    <a href="booking.html?vehicle=Ertiga" class="card-btn">Reserve Ertiga</a>
+                </div>
+            </div>
+
+            <!-- 2. TOYOTA ETIOS (GREY SEDAN) -->
+            <div class="fleet-card">
+                <div class="vehicle-slider">
+                    <img src="images/etios1.jpeg" class="etios-slide active" alt="Toyota Etios Grey">
+                    <img src="images/etios2.jpeg" class="etios-slide" alt="Toyota Etios Front">
+                    <img src="images/etios3.jpeg" class="etios-slide" alt="Toyota Etios Interior">
+                    <img src="images/etios4.jpeg" class="etios-slide" alt="Toyota Etios Profile">
+
+                    <button class="slider-arrow prev" type="button" onclick="changeEtiosSlide(-1)" aria-label="Previous">‹</button>
+                    <button class="slider-arrow next" type="button" onclick="changeEtiosSlide(1)" aria-label="Next">›</button>
+
+                    <div class="slider-dots">
+                        <span class="etios-dot active-dot" onclick="showEtiosSlide(0)"></span>
+                        <span class="etios-dot" onclick="showEtiosSlide(1)"></span>
+                        <span class="etios-dot" onclick="showEtiosSlide(2)"></span>
+                        <span class="etios-dot" onclick="showEtiosSlide(3)"></span>
+                    </div>
+                </div>
+
+                <div class="fleet-info">
+                    <div class="fleet-meta">
+                        <span class="fleet-category">EXECUTIVE SEDAN • 4+1</span>
+                    </div>
+                    <h3>Toyota Etios (Grey)</h3>
+                    <p class="fleet-desc">
+                        Renowned for plush legroom, silent highway comfort, and an expansive 592-liter boot capacity for heavy luggage and airport runs.
+                    </p>
+                    <div class="fleet-specs">
+                        <span>Up to 4 Passengers</span>
+                        <span>Climate AC</span>
+                        <span>592L Luggage Boot</span>
+                        <span>Smooth Mountain Transit</span>
+                    </div>
+                    <a href="booking.html?vehicle=Etios" class="card-btn">Reserve Etios</a>
+                </div>
+            </div>
+
+            <!-- 3. TOYOTA ETIOS SEDAN (WHITE - TN 43 R 4188) -->
+            <div class="fleet-card">
+                <div class="vehicle-slider">
+                    <img src="images/etiossedan1.jpeg" class="sedan-slide active" alt="Toyota Etios Sedan White">
+                    <img src="images/etiossedan2.jpeg" class="sedan-slide" alt="Toyota Etios Cabin">
+                    <img src="images/etiossedan3.jpeg" class="sedan-slide" alt="Toyota Etios Interior">
+
+                    <button class="slider-arrow prev" type="button" onclick="changeSedanSlide(-1)" aria-label="Previous">‹</button>
+                    <button class="slider-arrow next" type="button" onclick="changeSedanSlide(1)" aria-label="Next">›</button>
+
+                    <div class="slider-dots">
+                        <span class="sedan-dot active-dot" onclick="showSedanSlide(0)"></span>
+                        <span class="sedan-dot" onclick="showSedanSlide(1)"></span>
+                        <span class="sedan-dot" onclick="showSedanSlide(2)"></span>
+                    </div>
+                </div>
+
+                <div class="fleet-info">
+                    <div class="fleet-meta">
+                        <span class="fleet-category">LOCAL REGISTERED • TN 43</span>
+                    </div>
+                    <h3>Toyota Etios Sedan (White)</h3>
+                    <p class="fleet-desc">
+                        A spotless white executive sedan registered locally in the Nilgiris. Smooth handling for local viewpoint tours and resort transfers.
+                    </p>
+                    <div class="fleet-specs">
+                        <span>Up to 4 Passengers</span>
+                        <span>Chilled AC</span>
+                        <span>Clean Fabric Seating</span>
+                        <span>Nilgiris Reg.</span>
+                    </div>
+                    <a href="booking.html?vehicle=Etios%20Sedan" class="card-btn">Reserve Sedan</a>
+                </div>
+            </div>
+
+            <!-- 4. TOYOTA SEDAN FACELIFT (WHITE - TN 43 S 3367) -->
+            <div class="fleet-card">
+                <div class="vehicle-slider">
+                    <img src="images/etiosfacelift1.jpeg" class="facelift-slide active" alt="Toyota Sedan Facelift">
+                    <img src="images/etiosfacelift2.jpeg" class="facelift-slide" alt="Toyota Sedan Facelift Angle">
+                    <img src="images/etiosfacelift3.jpeg" class="facelift-slide" alt="Toyota Sedan Facelift Rear">
+                    <img src="images/etiosfacelift4.jpeg" class="facelift-slide" alt="Toyota Sedan Facelift Interior">
+
+                    <button class="slider-arrow prev" type="button" onclick="changeFaceliftSlide(-1)" aria-label="Previous">‹</button>
+                    <button class="slider-arrow next" type="button" onclick="changeFaceliftSlide(1)" aria-label="Next">›</button>
+
+                    <div class="slider-dots">
+                        <span class="facelift-dot active-dot" onclick="showFaceliftSlide(0)"></span>
+                        <span class="facelift-dot" onclick="showFaceliftSlide(1)"></span>
+                        <span class="facelift-dot" onclick="showFaceliftSlide(2)"></span>
+                        <span class="facelift-dot" onclick="showFaceliftSlide(3)"></span>
+                    </div>
+                </div>
+
+                <div class="fleet-info">
+                    <div class="fleet-meta">
+                        <span class="fleet-category">CONTEMPORARY FACELIFT</span>
+                    </div>
+                    <h3>Toyota Sedan Facelift</h3>
+                    <p class="fleet-desc">
+                        Modern styling, ultra-quiet cabin acoustics, and enhanced suspension designed for executive outstation journeys and premium travel.
+                    </p>
+                    <div class="fleet-specs">
+                        <span>Up to 4 Passengers</span>
+                        <span>Auto Climate Control</span>
+                        <span>Executive Interiors</span>
+                        <span>Long-Distance Ride</span>
+                    </div>
+                    <a href="booking.html?vehicle=Etios%20Sedan%20Facelift" class="card-btn">Reserve Facelift</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- =========================================
+         SERVICES - EDITORIAL ARCHITECTURE
+    ========================================= -->
+    <section id="services" class="section services-section">
+        <div class="section-header">
+            <span class="section-tag">SERVICES</span>
+            <h2>Private Travel Solutions</h2>
+            <p>Thoughtfully structured private chauffeur services for your schedule.</p>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-box">
+                <span class="service-index">01</span>
+                <h3>Nilgiris Sightseeing</h3>
+                <p>Bespoke full-day and half-day itineraries covering Ooty Lake, Botanical Garden, Rose Garden, Doddabetta Peak, and private tea estates.</p>
+            </div>
+            <div class="service-box">
+                <span class="service-index">02</span>
+                <h3>Airport Chauffeur</h3>
+                <p>Punctual private transfers connecting Coimbatore International Airport (CJB), Bangalore (BLR), and Mysore with flight tracking assistance.</p>
+            </div>
+            <div class="service-box">
+                <span class="service-index">03</span>
+                <h3>Coonoor & Heritage</h3>
+                <p>Scenic private day tours through Sim's Park, Dolphin's Nose, Lamb's Rock, and Nilgiri Mountain Toy Train station connections.</p>
+            </div>
+            <div class="service-box">
+                <span class="service-index">04</span>
+                <h3>Outstation Journeys</h3>
+                <p>Comfortable multi-day inter-state travel across South India, including Mysore, Bangalore, Wayanad, Kodaikanal, and Munnar.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================================
+         CURATED JOURNEYS / PACKAGES (MILLION-DOLLAR LUXURY)
+    ========================================= -->
+    <section id="packages" class="section packages-section">
+        <div class="section-header">
+            <span class="section-tag">CURATED EXPEDITIONS • NILGIRIS TARIFFS</span>
+            <h2>Signature Mountain Packages</h2>
+            <p>All-inclusive private chauffeur itineraries with fixed transparent pricing, ghat road toll passes, and doorstep resort dispatch.</p>
+        </div>
+
+        <div class="packages-container">
+            <!-- Category Segmented Tabs -->
+            <div class="packages-tabs">
+                <button type="button" class="pkg-tab-btn active" onclick="filterPackages('all', event)">All Packages (10)</button>
+                <button type="button" class="pkg-tab-btn" onclick="filterPackages('sightseeing', event)">Nilgiris Sightseeing (5)</button>
+                <button type="button" class="pkg-tab-btn" onclick="filterPackages('outstation', event)">Airport & Outstation (5)</button>
+            </div>
+
+            <div class="packages-layout">
+                <!-- Left Column: The Sreehari Distinction Sidebar -->
+                <aside class="packages-sidebar">
+                    <div class="why-book-card">
+                        <span class="sidebar-badge">CONCIERGE STANDARDS</span>
+                        <h3>The Sreehari Distinction</h3>
+                        <span class="sidebar-sub">Private mountain travel crafted without compromise.</span>
+
+                        <ul class="why-book-list">
+                            <li>
+                                <span class="check-num">01</span>
+                                <div>
+                                    <strong>Guaranteed Fixed Tariffs</strong>
+                                    <p>Upfront mountain rates with zero surge pricing, meter tampering, or hill weather surcharges.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-num">02</span>
+                                <div>
+                                    <strong>Seasoned Hill Chauffeurs</strong>
+                                    <p>Local Nilgiris drivers with deep expertise navigating 36 hairpin bends and dense morning fog.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-num">03</span>
+                                <div>
+                                    <strong>All-Inclusive Travel</strong>
+                                    <p>Mountain entry permits, driver bata, interstate taxes, and resort parking fully covered.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-num">04</span>
+                                <div>
+                                    <strong>Immaculate Private Fleet</strong>
+                                    <p>Dedicated Maruti Ertiga 7-seaters & Toyota Etios sedans with dual climate AC and boot space.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="check-num">05</span>
+                                <div>
+                                    <strong>Doorstep Resort Service</strong>
+                                    <p>Punctual collection from your resort in Ooty, Coonoor, or Kotagiri with flight tracking.</p>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="sidebar-help-box">
+                            <span>DIRECT DISPATCH HOTLINE</span>
+                            <a href="tel:+919585990734" class="sidebar-phone">+91 9585990734</a>
+                            <a href="https://wa.me/919585990734?text=Hello%20Sreehari%20Travels%20Ooty,%20I%20would%20like%20to%20enquire%20about%20signature%20cab%20packages." target="_blank" class="sidebar-wa-btn">
+                                WhatsApp Concierge →
+                            </a>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Right Column: Editorial Luxury Cab Tariff Table -->
+                <main class="packages-table-wrapper">
+                    <div class="goibibo-table">
+                        <!-- Table Head -->
+                        <div class="goibibo-thead">
+                            <div class="th-col th-route">Route & Expedition</div>
+                            <div class="th-col th-inclusions">Curated Sights & Duration</div>
+                            <div class="th-col th-price">Fixed Tariff</div>
+                            <div class="th-col th-action">Reservation</div>
+                        </div>
+
+                        <!-- Table Body -->
+                        <div class="goibibo-tbody" id="packagesList">
+
+                            <!-- 1. Ooty Local Sightseeing - ₹1700 -->
+                            <div class="goibibo-row" data-category="sightseeing">
+                                <div class="col-route">
+                                    <span class="route-badge">LOCAL SIGHTSEEING</span>
+                                    <h4 class="route-title">Ooty Local Sightseeing</h4>
+                                    <span class="route-sub">40 kms circuit • Approx. 8 Hours</span>
+                                </div>
+                                <div class="col-inclusions">
+                                    <div class="inclusion-head">
+                                        <span class="inc-check">✓</span>
+                                        <strong>Full Day Sightseeing Included</strong>
+                                    </div>
+                                    <p class="inclusion-text">Botanical Garden • Ooty Lake & Boating • Rose Garden • Doddabetta Peak • Tea Factory & Museum</p>
+                                </div>
+                                <div class="col-price">
+                                    <div class="price-amount">₹1,700</div>
+                                    <span class="price-label">Fixed • All-Inclusive</span>
+                                </div>
+                                <div class="col-action">
+                                    <a href="booking.html?pickup=Ooty&drop=Ooty+Local+Sightseeing&tripType=Ooty+Sightseeing&package=Ooty+Sightseeing+-+₹1,700" class="btn-view-cabs">Reserve Cab →</a>
+                                </div>
+                            </div>
+
+                            <!-- 2. Pykara - ₹1800 -->
+                            <div class="goibibo-row" data-category="sightseeing">
+                                <div class="col-route">
+                                    <span class="route-badge">SCENIC CIRCUIT</span>
+                                    <h4 class="route-title">Ooty to Pykara Tour</h4>
+                                    <span class="route-sub">50 kms round trip • Approx. 5.5 Hours</span>
+                                </div>
+                                <div class="col-inclusions">
+                                    <div class="inclusion-head">
+                                        <span class="inc-check">✓</span>
+                                        <strong>Waterfalls & Lake Expedition</strong>
+                                    </div>
+                                    <p class="inclusion-text">Pine Forest • Kamraj Sagar Dam • 6th & 9th Mile Shooting Spots • Pykara Lake & Falls</p>
+                                </div>
+                                <div class="col-price">
+                                    <div class="price-amount">₹1,800</div>
+                                    <span class="price-label">Fixed • All-Inclusive</span>
+                                </div>
+                                <div class="col-action">
+                                    <a href="booking.html?pickup=Ooty&drop=Pykara+Sightseeing&tripType=Ooty+Sightseeing&package=Pykara+Tour+-+₹1,800" class="btn-view-cabs">Reserve Cab →</a>
+                                </div>
+                            </div>
+
+                            <!-- 3. Coonoor - ₹2000 -->
+                            <div class="goibibo-row" data-category="sightseeing">
+                                <div class="col-route">
+                                    <span class="route-badge">TEA COUNTRY</span>
+                                    <h4 class="route-title">Ooty to Coonoor Heritage</h4>
+                                    <span class="route-sub">45 kms round trip • Approx. 6.5 Hours</span>
+                                </div>
+                                <div class="col-inclusions">
+                                    <div class="inclusion-head">
+                                        <span class="inc-check">✓</span>
+                                        <strong>Tea Heritage & Valley Viewpoints</strong>
+                                    </div>
+                                    <p class="inclusion-text">Sim's Park • Dolphin's Nose • Lamb's Rock • Ketti Valley View • Tea Plantations • Toy Train link</p>
+                                </div>
+                                <div class="col-price">
+                                    <div class="price-amount">₹2,000</div>
+                                    <span class="price-label">Fixed • All-Inclusive</span>
+                                </div>
+                                <div class="col-action">
+                                    <a href="booking.html?pickup=Ooty&drop=Coonoor+Sightseeing&tripType=Ooty+Sightseeing&package=Coonoor+Tour+-+₹2,000" class="btn-view-cabs">Reserve Cab →</a>
+                                </div>
+                            </div>
+
+                            <!-- 4. Avalanche - ₹2200 -->
+                            <div class="goibibo-row" data-category="sightseeing">
+                                <div class="col-route">
+                                    <span class="route-badge">ECO SANCTUARY</span>
+                                    <h4 class="route-title">Ooty to Avalanche & Emerald</h4>
+                                    <span class="route-sub">60 kms round trip • Approx. 6 Hours</span>
+                                </div>
+                                <div class="col-inclusions">
+                                    <div class="inclusion-head">
+                                        <span class="inc-check">✓</span>
+                                        <strong>Eco Sanctuary & Lake Drive</strong>
+                                    </div>
+                                    <p class="inclusion-text">Avalanche Lake • Emerald Lake & Dam • Upper Bhavani Valley • Tea Estate Panoramic Trails</p>
+                                </div>
+                                <div class="col-price">
+                                    <div class="price-amount">₹2,200</div>
+                                    <span class="price-label">Fixed • All-Inclusive</span>
+                                </div>
+                                <div class="col-action">
+                                    <a href="booking.html?pickup=Ooty&drop=Avalanche+Lake&tripType=Ooty+Sightseeing&package=Avalanche+Tour+-+₹2,200" class="btn-view-cabs">Reserve Cab →</a>
+                                </div>
+                            </div>
+
+                            <!-- 5. CBE Pickup - ₹2700 -->
+                            <div class="goibibo-row" data-category="outstation">
+                                <div class="col-route">
+                                    <span class="route-badge">AIRPORT TRANSIT</span>
+                                    <h4 class="route-title">Coimbatore to Ooty (Pickup)</h4>
+                                    <span class="route-sub">88 kms • Approx. 2h 55m</span>
+                                </div>
+                                <div class="col-inclusions">
+                                    <div class="inclusion-head">
+                                        <span class="inc-check">✓</span>
+                                        <strong>88 kms Direct Mountain Ascent</strong>
+                                    </div>
+                                    <p class="inclusion-text">Airport (CJB) / Junction pickup, Mettupalayam ghat road hill climb, luggage handling & tolls</p>
+                                </div>
+                                <div class="col-price">
+                                    <div class="price-amount">₹2,700</div>
+                                    <span class="price-label">Fixed • All-Inclusive</span>
+                                </div>
+                                <div class="col-action">
+                                    <a href="booking.html?pickup=Coimbatore+Airport&drop=Ooty&tripType=One+Way&package=Coimbatore+to+Ooty+Pickup+-+₹2,700" class="btn-view-cabs">Reserve Cab →</a>
+                                </div>
+                            </div>
+
+                            <!-- 6. CBE Drop - ₹2700 -->
+                            <div class="goibibo-row" data-category="outstation">
+                                <div class="col-route">
+                                    <span class="route-badge">AIRPORT DROP</span>
+                                    <h4 class="route-title">Ooty to Coimbatore (Drop)</h4>
+                                    <span class="route-sub">88 kms • Approx. 2h 55m</span>
+                                </div>
+                                <div class="col-inclusions">
+                                    <div class="inclusion-head">
+                                        <span class="inc-check">✓</span>
+                                        <strong>88 kms Flight-Synchronized Transfer</strong>
+                                    </div>
+                                    <p class="inclusion-text">Resort pickup in Ooty, scheduled flight transfer to Coimbatore Airport (CJB) / Junction</p>
+                                </div>
+                                <div class="col-price">
+                                    <div class="price-amount">₹2,700</div>
+                                    <span class="price-label">Fixed • All-Inclusive</span>
+                                </div>
+                                <div class="col-action">
+                                    <a href="booking.html?pickup=Ooty&drop=Coimbatore+Airport&tripType=One+Way&package=Ooty+to+Coimbatore+Drop+-+₹2,700" class="btn-view-cabs">Reserve Cab →</a>
+                                </div>
+                            </div>
+
+                            <!-- 7. Pykara and Mudumalai - ₹3000 -->
+                            <div class="goibibo-row" data-category="sightseeing">
+                                <div class="col-route">
+                                    <span class="route-badge">WILDLIFE EXPEDITION</span>
+                                    <h4 class="route-title">Ooty to Pykara & Mudumalai</h4>
+                                    <span class="route-sub">95 kms round trip • Approx. 8.5 Hours</span>
+                                </div>
+                                <div class="col-inclusions">
+                                    <div class="inclusion-head">
+                                        <span class="inc-check">✓</span>
+                                        <strong>Waterfalls + Wildlife Safari Route</strong>
+                                    </div>
+                                    <p class="inclusion-text">9th Mile Shooting Spot • Pykara Falls & Lake • Gudalur Valley • Mudumalai Tiger Reserve Link</p>
+                                </div>
+                                <div class="col-price">
+                                    <div class="price-amount">₹3,000</div>
+                                    <span class="price-label">Fixed • All-Inclusive</span>
+                                </div>
+                                <div class="col-action">
+                                    <a href="booking.html?pickup=Ooty&drop=Pykara+and+Mudumalai&tripType=Ooty+Sightseeing&package=Pykara+and+Mudumalai+-+₹3,000" class="btn-view-cabs">Reserve Cab →</a>
+                                </div>
+                            </div>
+
+                            <!-- 8. Mysore Drop - ₹4500 -->
+                            <div class="goibibo-row" data-category="outstation">
+                                <div class="col-route">
+                                    <span class="route-badge">INTERSTATE TRANSIT</span>
+                                    <h4 class="route-title">Ooty to Mysore (Drop)</h4>
+                                    <span class="route-sub">126 kms • Approx. 3h 48m</span>
+                                </div>
+                                <div class="col-inclusions">
+                                    <div class="inclusion-head">
+                                        <span class="inc-check">✓</span>
+                                        <strong>126 kms Interstate Forest Corridor</strong>
+                                    </div>
+                                    <p class="inclusion-text">Doorstep Ooty pickup, Bandipur wildlife forest route, Mysore Railway Station / City drop</p>
+                                </div>
+                                <div class="col-price">
+                                    <div class="price-amount">₹4,500</div>
+                                    <span class="price-label">Fixed • All-Inclusive</span>
+                                </div>
+                                <div class="col-action">
+                                    <a href="booking.html?pickup=Ooty&drop=Mysore&tripType=One+Way&package=Ooty+to+Mysore+Drop+-+₹4,500" class="btn-view-cabs">Reserve Cab →</a>
+                                </div>
+                            </div>
+
+                            <!-- 9. Mysore Pickup - ₹4500 -->
+                            <div class="goibibo-row" data-category="outstation">
+                                <div class="col-route">
+                                    <span class="route-badge">INTERSTATE PICKUP</span>
+                                    <h4 class="route-title">Mysore to Ooty (Pickup)</h4>
+                                    <span class="route-sub">126 kms • Approx. 3h 48m</span>
+                                </div>
+                                <div class="col-inclusions">
+                                    <div class="inclusion-head">
+                                        <span class="inc-check">✓</span>
+                                        <strong>126 kms Scenic Mountain Climb</strong>
+                                    </div>
+                                    <p class="inclusion-text">Mysore Junction / Hotel pickup, Bandipur forest corridor drive, scenic Nilgiris mountain climb</p>
+                                </div>
+                                <div class="col-price">
+                                    <div class="price-amount">₹4,500</div>
+                                    <span class="price-label">Fixed • All-Inclusive</span>
+                                </div>
+                                <div class="col-action">
+                                    <a href="booking.html?pickup=Mysore&drop=Ooty&tripType=One+Way&package=Mysore+to+Ooty+Pickup+-+₹4,500" class="btn-view-cabs">Reserve Cab →</a>
+                                </div>
+                            </div>
+
+                            <!-- 10. Mysore, Bangalore & Kodaikanal Package Available -->
+                            <div class="goibibo-row custom-package-row" data-category="outstation">
+                                <div class="col-route">
+                                    <span class="route-badge" style="background: rgba(187, 161, 114, 0.2); color: #8a703f;">BESPOKE TOUR</span>
+                                    <h4 class="route-title">Mysore, Bangalore & Kodaikanal</h4>
+                                    <span class="route-sub">Multi-Day Expeditions • Custom Routes</span>
+                                </div>
+                                <div class="col-inclusions">
+                                    <div class="inclusion-head">
+                                        <span class="inc-check">✓</span>
+                                        <strong>Custom Multi-Day Packages Available</strong>
+                                    </div>
+                                    <p class="inclusion-text">Tailored South India holiday packages, Bangalore Airport (BLR) transit, Kodaikanal circuits</p>
+                                </div>
+                                <div class="col-price">
+                                    <div class="price-amount" style="font-size: 21px;">Bespoke Quote</div>
+                                    <span class="price-label">Best Rate Guarantee</span>
+                                </div>
+                                <div class="col-action">
+                                    <a href="https://wa.me/919585990734?text=Hello%20Sreehari%20Travels%20Ooty,%20I%20am%20inquiring%20about%20Mysore,%20Bangalore%20or%20Kodaikanal%20tour%20packages." target="_blank" class="btn-view-cabs">Inquire Concierge →</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================================
+         ABOUT / HERITAGE
+    ========================================= -->
+    <section id="about" class="section about-section">
+        <div class="about-container">
+            <div class="about-left">
+                <span class="section-tag">THE HERITAGE</span>
+                <h2>A Decade of Mountain Chauffeur Excellence</h2>
+                <p>
+                    Established in the Nilgiris, <strong>Sreehari Travels Ooty</strong> was founded on a simple principle: mountain travel should be unhurried, supremely comfortable, and completely reliable.
+                </p>
+                <p>
+                    From early morning flight connections to week-long family explorations through the Western Ghats, our experienced chauffeurs bring deep familiarity with hill station routes, local landmarks, and weather conditions.
+                </p>
+                <div class="about-actions">
+                    <a href="booking.html" class="btn-primary">Plan a Journey</a>
+                    <a href="tel:+919585990734" class="btn-secondary">Direct Telephone</a>
+                </div>
+            </div>
+
+            <div class="about-stats-box">
+                <div class="stat-item">
+                    <span class="stat-number">4+</span>
+                    <span class="stat-label">Fleet Vehicles</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">10+</span>
+                    <span class="stat-label">Years Operating</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Concierge Line</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================================
+         CONTACT CONCIERGE
+    ========================================= -->
+    <section id="contact" class="section contact-section">
+        <div class="section-header">
+            <span class="section-tag">CONCIERGE</span>
+            <h2>Direct Communication</h2>
+            <p>Connect with our dispatch team for instant estimates and custom requests.</p>
+        </div>
+
+        <div class="contact-grid">
+            <div class="contact-box">
+                <span class="contact-label">TELEPHONE</span>
+                <h3>Direct Line</h3>
+                <p>Instant booking assistance and route consultations.</p>
+                <a href="tel:+919585990734" class="contact-link">+91 9585990734</a>
+            </div>
+
+            <div class="contact-box">
+                <span class="contact-label">WHATSAPP</span>
+                <h3>Instant Messaging</h3>
+                <p>Send passenger details, dates, and destination.</p>
+                <a href="https://wa.me/919585990734?text=Hello%20Sreehari%20Travels%20Ooty,%20I%20would%20like%20to%20enquire%20about%20a%20cab%20booking." target="_blank" class="contact-link">
+                    Start WhatsApp Chat
+                </a>
+            </div>
+
+            <div class="contact-box">
+                <span class="contact-label">LOCATION</span>
+                <h3>Base Office</h3>
+                <p>Ooty (Udhagamandalam), The Nilgiris, Tamil Nadu — 643001.</p>
+                <a href="https://maps.google.com/?q=Ooty,Tamil+Nadu" target="_blank" class="contact-link">
+                    View on Google Maps
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================================
+         CALL TO ACTION (CTA)
+    ========================================= -->
+    <section class="cta-banner">
+        <div class="cta-inner">
+            <h2>Ready to Travel the Nilgiris?</h2>
+            <p>Reserve your vehicle in advance for a relaxed, stress-free journey.</p>
+            <div class="cta-btns">
+                <a href="booking.html" class="btn-primary">Reserve Vehicle Online</a>
+                <a href="https://wa.me/919585990734?text=Hello%20Sreehari%20Travels%20Ooty,%20I%20would%20like%20to%20book%20a%20cab." target="_blank" class="btn-secondary">
+                    WhatsApp Concierge
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================================
+         FOOTER - LUXURY MINIMALIST
+    ========================================= -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="logo">
+                    <span class="logo-title">SREEHARI TRAVELS</span>
+                    <span class="logo-badge">OOTY</span>
+                </div>
+                <p class="footer-summary">
+                    Private chauffeur and travel service based in Ooty. Serving the Nilgiris, Coimbatore, Mysore, and South India.
+                </p>
+                <a href="admin.html" class="admin-link">Admin Access</a>
+            </div>
+
+            <div class="footer-links-col">
+                <h4>NAVIGATION</h4>
+                <a href="#home">Home</a>
+                <a href="#vehicles">Fleet</a>
+                <a href="#services">Services</a>
+                <a href="#packages">Packages</a>
+                <a href="#about">Heritage</a>
+                <a href="#contact">Contact</a>
+                <a href="booking.html">Online Reservation</a>
+            </div>
+
+            <div class="footer-contact-col">
+                <h4>CONTACT</h4>
+                <p>Direct: <a href="tel:+919585990734">+91 9585990734</a></p>
+                <p>WhatsApp: <a href="https://wa.me/919585990734" target="_blank">Available 24/7</a></p>
+                <p>Email: <a href="mailto:billirajesh14@gmail.com">billirajesh14@gmail.com</a></p>
+                <p>Base: Ooty, The Nilgiris, Tamil Nadu</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Sreehari Travels Ooty. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- =========================================
+         MINIMALIST FLOATING ACTION BUTTONS
+    ========================================= -->
+    <div class="floating-actions">
+        <a href="https://wa.me/919585990734?text=Hello%20Sreehari%20Travels%20Ooty,%20I%20would%20like%20to%20enquire%20about%20a%20cab%20booking%20in%20Ooty."
+           class="float-btn float-wa" target="_blank" title="WhatsApp Concierge" aria-label="WhatsApp">
+            <span>WhatsApp</span>
+        </a>
+        <a href="tel:+919585990734" class="float-btn float-phone" title="Call Concierge" aria-label="Call">
+            <span>Call</span>
+        </a>
+    </div>
+
+    <!-- =========================================
+         CORE VEHICLE SLIDER JAVASCRIPT
+    ========================================= -->
+    <script>
+    // 1. Mobile Menu Toggle
+    const mobileMenuBtn = document.getElementById("mobileMenuBtn");
+    const navMenu = document.getElementById("navMenu");
+
+    if (mobileMenuBtn && navMenu) {
+        mobileMenuBtn.addEventListener("click", function () {
+            navMenu.classList.toggle("mobile-open");
+            mobileMenuBtn.classList.toggle("open");
+        });
+
+        navMenu.querySelectorAll("a").forEach(link => {
+            link.addEventListener("click", () => {
+                navMenu.classList.remove("mobile-open");
+                mobileMenuBtn.classList.remove("open");
+            });
+        });
+    }
+
+    // 2. Universal Vehicle Slider Engine
+    const vehicleSliders = {
+        ertiga: { index: 0, slideClass: ".ertiga-slide", dotClass: ".ertiga-dot" },
+        etios: { index: 0, slideClass: ".etios-slide", dotClass: ".etios-dot" },
+        sedan: { index: 0, slideClass: ".sedan-slide", dotClass: ".sedan-dot" },
+        facelift: { index: 0, slideClass: ".facelift-slide", dotClass: ".facelift-dot" }
+    };
+
+    function showVehicleSlide(key, targetIndex) {
+        const slider = vehicleSliders[key];
+        if (!slider) return;
+
+        const slides = document.querySelectorAll(slider.slideClass);
+        const dots = document.querySelectorAll(slider.dotClass);
+        if (slides.length === 0) return;
+
+        if (targetIndex >= slides.length) targetIndex = 0;
+        if (targetIndex < 0) targetIndex = slides.length - 1;
+
+        slides.forEach((slide, i) => {
+            slide.classList.toggle("active", i === targetIndex);
+        });
+
+        dots.forEach((dot, i) => {
+            dot.classList.toggle("active-dot", i === targetIndex);
+        });
+
+        slider.index = targetIndex;
+
+        // Update blurred backdrop to match active slide
+        const activeSlide = slides[targetIndex];
+        if (activeSlide) {
+            const sliderEl = activeSlide.closest(".vehicle-slider");
+            const bg = sliderEl && sliderEl.querySelector(".slider-bg");
+            if (bg) bg.style.backgroundImage = "url('" + activeSlide.src + "')";
+        }
+    }
+
+    function changeVehicleSlide(key, direction) {
+        const slider = vehicleSliders[key];
+        if (slider) {
+            showVehicleSlide(key, slider.index + direction);
+        }
+    }
+
+    // Global Wrapper Functions for HTML OnClick attributes
+    function showErtigaSlide(i) { showVehicleSlide("ertiga", i); }
+    function changeErtigaSlide(d) { changeVehicleSlide("ertiga", d); }
+
+    function showEtiosSlide(i) { showVehicleSlide("etios", i); }
+    function changeEtiosSlide(d) { changeVehicleSlide("etios", d); }
+
+    function showSedanSlide(i) { showVehicleSlide("sedan", i); }
+    function changeSedanSlide(d) { changeVehicleSlide("sedan", d); }
+
+    function showFaceliftSlide(i) { showVehicleSlide("facelift", i); }
+    function changeFaceliftSlide(d) { changeVehicleSlide("facelift", d); }
+
+    // 3. Package Category Filter
+    function filterPackages(category, evt) {
+        const rows = document.querySelectorAll(".goibibo-row");
+        const tabs = document.querySelectorAll(".pkg-tab-btn");
+
+        tabs.forEach(tab => tab.classList.remove("active"));
+        if (evt && evt.target) {
+            evt.target.classList.add("active");
+        }
+
+        rows.forEach(row => {
+            const rowCat = row.getAttribute("data-category");
+            if (category === "all" || rowCat === category) {
+                row.style.display = "grid";
+            } else {
+                row.style.display = "none";
+            }
+        });
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        // Inject blurred backdrop div into every vehicle slider
+        document.querySelectorAll(".vehicle-slider").forEach(function (sliderEl) {
+            const bg = document.createElement("div");
+            bg.className = "slider-bg";
+            const firstImg = sliderEl.querySelector("img.active") || sliderEl.querySelector("img");
+            if (firstImg) bg.style.backgroundImage = "url('" + firstImg.src + "')";
+            sliderEl.insertBefore(bg, sliderEl.firstChild);
+        });
+
+        showErtigaSlide(0);
+        showEtiosSlide(0);
+        showSedanSlide(0);
+        showFaceliftSlide(0);
+
+        // Smooth subtle auto rotation every 5 seconds
+        setInterval(function () {
+            changeErtigaSlide(1);
+            changeEtiosSlide(1);
+            changeSedanSlide(1);
+            changeFaceliftSlide(1);
+        }, 5000);
+    });
+    </script>
+</body>
+
+</html>
